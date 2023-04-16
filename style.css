@@ -17,7 +17,6 @@ a {
 
 .header {
     background-color: #1F2937;
-    color: white;
     margin: 0;
     padding: 16px 200px;
     display: flex;
@@ -26,7 +25,11 @@ a {
 }  
 .header-left {
    font-weight: bold;
+   color: #F9FAF8;
 } 
+.header-right {
+    color: #E5E7EB;
+}
 
 /*The first section of the landing page*/
 
@@ -45,7 +48,7 @@ a {
 }
 .title {
     font-size: 48px;
-    font-weight: 900px;
+    font-weight: bolder;
     color: #F9FAF8;
 }
 .subtext {
@@ -57,6 +60,7 @@ a {
 .button {
     background-color: #3882F6; 
     border: none;
+    border-radius: 8px;
     padding: 8px;
     text-align: center; 
     font-size: 17px;
@@ -122,12 +126,30 @@ a {
 
 /*Section 4; Call to Action*/
 .signup {
-    background-color: green;
+    background-color: #3882F6;  
+    color: white;
+    font-size: 20px;
+    margin: 50px 200px;
+    padding: 25px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.button2 {
+    color: white;
+    background-color: #3882F6;
+    border:  2px solid white;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 /* lastly footer*/
 .footer {
     background-color: #1F2937;
+    text-align: center;
+    padding: 20px 0px;
+    color: white; 
+
 }
 
 
